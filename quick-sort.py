@@ -1,10 +1,10 @@
-arr = [3,7,8,5,2,1,9,5,4]
+arr_before_sort = [3,7,8,5,2,1,9,5,4]
 
 def quick_sort(arr):
 	
 	'''选定一个基准元素, 将基准元素与数组中最后一个元素交换位置'''
 	arrlen = len(arr)
-	if(arrlen == 1 or arrlen == 0):return
+	if(arrlen == 1 or arrlen == 0):return arr
 	
 	pivotIndex = int(arrlen/2)
 	pivotVar = arr[pivotIndex]
@@ -19,12 +19,18 @@ def quick_sort(arr):
 			sortIndex = sortIndex + 1
 		else:
 			continue
+
 	arr[sortIndex],	arr[-1] = arr[-1], arr[sortIndex]
 	
+	
 	'''递归排序左右两个子集'''
-	quick_sort(arr[0:sortIndex])
-	quick_sort(arr[sortIndex+1:])
+	left = quick_sort(arr[0:sortIndex])
+	right = quick_sort(arr[sortIndex+1:])
+	left.append(arr[sortIndex])
 
-print(arr)
-quick_sort(arr)
-print(arr)		
+	return left + right
+
+	
+print("before Sort:",arr_before_sort)
+arr_after_sort = quick_sort(arr_before_sort)
+print("After Sort:",arr_after_sort)		
