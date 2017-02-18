@@ -1,4 +1,4 @@
-arr_before_sort = [3,7,8,5,2,1,9,5,4]
+arr_before_sort = [3,7,8,5,2,1,9,5,4,44,55,3,22,66,77,5,4,3,9]
 
 def quick_sort(arr):
 	
@@ -14,7 +14,7 @@ def quick_sort(arr):
 	sortIndex = 0	
 	for var in arr[sortIndex:-1]:
 		if(var <= pivotVar):
-			index = arr.index(var)
+			index = arr[sortIndex:-1].index(var) + sortIndex
 			arr[sortIndex],arr[index] = arr[index], arr[sortIndex]
 			sortIndex = sortIndex + 1
 		else:
