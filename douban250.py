@@ -1,8 +1,9 @@
 import urllib.request 
+from bs4 import BeautifulSoup
 
 
 #设置代理
-enable_proxy = True
+enable_proxy = False
 proxy_handler = urllib.request.ProxyHandler({"http" : 'http://coliu:Amazon!3@sdcwsa01.commscope.com:80'})
 null_proxy_handler = urllib.request.ProxyHandler({})
 
@@ -27,7 +28,7 @@ urllib.request.install_opener(opener)
 #values = {'username' : 'cqc',  'password' : 'XXXX' }  
 #headers = { 'User-Agent' : user_agent }  
 #data = urllib.urlencode(values)  
-url = 'http://www.baidu.com/'
+url = 'https://movie.douban.com/top250'
 req = urllib.request.Request(url, headers = {
     'Connection': 'Keep-Alive',
     'Accept': 'text/html, application/xhtml+xml, */*',
@@ -35,6 +36,20 @@ req = urllib.request.Request(url, headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko'
 })
 
-oper = urllib.request.urlopen(req)
-data = oper.read()
-print(data.decode())
+response = urllib.request.urlopen(req)
+
+soup = BeautifulSoup(response, "html.parser")
+content = soup.find('ol')
+
+for child in content.children:
+    if child.name == 'li':
+       a = child.find('em')
+       b = child.find('span', class_='title')
+       c = child.find('span', class_='rating_num')
+       d = child.find('span', class_='inq')
+       print (a.text + ' ' + b.text + ' ' + c.text + ' ' + d.text)
+
+
+
+
+
