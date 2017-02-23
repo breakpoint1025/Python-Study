@@ -47,7 +47,7 @@ for child in content.children:
        b = child.find('span', class_='title')
        c = child.find('span', class_='rating_num')
        d = child.find('span', class_='inq')
-       print (a.text + ' ' + b.text + ' ' + c.text + ' ' + d.text)
+       print (a.text + '. <<' + b.text + '>> ' + c.text + ' \"' + d.text + '\"')
 
 
 
