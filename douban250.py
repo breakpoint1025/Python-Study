@@ -71,4 +71,4 @@ printmovieinfo(urllist, headers)
 
 #结束计时
 end = time.clock()
-print("Time spent:", (end-start))
+print("Time spent:%f seconds" %(end-start))
