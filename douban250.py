@@ -1,6 +1,11 @@
 import urllib.request 
 import re
+import time
 from bs4 import BeautifulSoup
+
+#开始计时
+start = time.clock()
+
 
 
 #设置代理
@@ -34,15 +39,15 @@ headers = {
 }
 req = urllib.request.Request(url, headers = headers)
 
-#抽取主页面是所有的分页链接
+#抽取主页面上所有的分页链接 去除重复链接
 response = urllib.request.urlopen(req)
 soup = BeautifulSoup(response, "html.parser")
 urllist = ['https://movie.douban.com/top250']
 for url in soup.findAll("a"):
     if re.match(r'.*?start=\d{2,3}&filter=.*', url['href']):
-        print(url['href'])
-        urllist.append('https://movie.douban.com/top250'+url['href'])
-
+        newUrl = 'https://movie.douban.com/top250'+url['href']
+        if newUrl not in urllist:
+            urllist.append(newUrl)
 
 #逐页打印电影信息
 def printmovieinfo(urllist, headers):
@@ -57,8 +62,13 @@ def printmovieinfo(urllist, headers):
                 b = child.find('span', class_='title')
                 c = child.find('span', class_='rating_num')
                 d = child.find('span', class_='inq')
-                print (a.text + '. <<' + b.text + '>> ' + c.text + ' \"' + d.text + '\"')
-
+                if d != None:
+                    print (a.text + '. <<' + b.text + '>> ' + c.text + ' \"' + d.text + '\"')
+                else:
+                    print (a.text + '. <<' + b.text + '>> ' + c.text + ' \"' + '\"')
 
 printmovieinfo(urllist, headers)
 
+#结束计时
+end = time.clock()
+print("Time spent:", (end-start))
