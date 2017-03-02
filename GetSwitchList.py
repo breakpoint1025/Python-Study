@@ -12,7 +12,7 @@ saved_path = os.getcwd()
 os.chdir(working_dr)
 
 devinfo_list = []
-fo = open("devices_list.txt", "w+")
+fo = open("..\devices_list.txt", "w+")
 for filename in os.listdir():
     f = open(filename, 'r')
     for line in f.readlines():
