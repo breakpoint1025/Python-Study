@@ -13,8 +13,10 @@ os.chdir(working_dr)
 for filename in os.listdir():
     f = open(filename, 'r')
     for line in f.readlines():
-        if line.startswith('Name'):
-            re.split('=', line)
+        if line.find('Name') != -1:
+            a = line.find('\"')
+            b = line.rfind('\"')
+            ip = line[line.find('\"')+1:-line.rfind('\"')]
 
 
 
