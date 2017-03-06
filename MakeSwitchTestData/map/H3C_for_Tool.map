@@ -1,0 +1,2090 @@
+<DeviceMap
+	Release = "11.0"
+	Description = ""
+	UserData = ""
+	SetupFile = ""
+	Interface = ""
+	Separator = ""
+	StartInterfaceNum = "0"
+	Username = "">
+<Device
+	<General
+		Name = "192.168.128.1"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "dky-hw3528-EA.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\dky-hw3528-EA.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.2"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "dky-hw3528.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\dky-hw3528.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.3"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "dl-hw-ne40-8.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\dl-hw-ne40-8.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.4"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "dl-hw5012.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\dl-hw5012.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.5"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "dl-hw6503.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\dl-hw6503.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.6"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C 12500.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C 12500.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.7"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C 3100.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C 3100.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.8"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C 3100v2.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C 3100v2.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.9"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C 3204.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C 3204.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.10"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C 7503 (2).var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C 7503 (2).var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.11"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C 7503 (3).var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C 7503 (3).var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.12"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C 7503 (4).var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C 7503 (4).var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.13"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C 7503.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C 7503.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.14"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C 7506.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C 7506.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.15"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C 7506e.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C 7506e.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.16"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C HUAWEI_S5700.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C HUAWEI_S5700.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.17"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C Quidway S9306 (2).var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C Quidway S9306 (2).var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.18"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C Quidway S9306.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C Quidway S9306.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.19"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C Quidway S9312.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C Quidway S9312.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.20"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C Quidway S9312_1.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C Quidway S9312_1.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.21"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C S12518.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C S12518.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.22"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C S5120-52C-EI (2).var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C S5120-52C-EI (2).var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.23"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C S5120-52C-EI.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C S5120-52C-EI.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.24"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C S5120.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C S5120.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.25"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C S5800X-28C.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C S5800X-28C.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.26"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C S5820X-28C.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C S5820X-28C.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.27"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C12500.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C12500.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.28"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C3204.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C3204.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.29"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C3600-52P-EI.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C3600-52P-EI.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.30"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C7502E.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C7502E.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.31"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "h3c7506.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\h3c7506.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.32"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C7506E.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C7506E.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.33"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "H3C7510E.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\H3C7510E.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.34"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Huawei JXDL2-S3528P.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\Huawei JXDL2-S3528P.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.35"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "JXDL NE40-8.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\JXDL NE40-8.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.36"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "JXDL2-S3528P-EA.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\JXDL2-S3528P-EA.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.37"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "JXDL2-S3528P.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\JXDL2-S3528P.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.38"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "LS-12508(H3C).var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\LS-12508(H3C).var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.39"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "LS-5500-34C-HI(H3C).var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\LS-5500-34C-HI(H3C).var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.40"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "LS-7506E(H3C).var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\LS-7506E(H3C).var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.41"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "MIB-WALK NE40-8.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\MIB-WALK NE40-8.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.42"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "MIB-WALK S3528P-EA(Type Update).var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\MIB-WALK S3528P-EA(Type Update).var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.43"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "MIB-WALK S3528P-EA.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\MIB-WALK S3528P-EA.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.44"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "MIB-WALK S5012G.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\MIB-WALK S5012G.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.45"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "MIB-WALK S6503.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\MIB-WALK S6503.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.46"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "mib3750e-uten-pw.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\mib3750e-uten-pw.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.47"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "MibEnt1H582-25.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\MibEnt1H582-25.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.48"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "MIBH3CSW_DATACENTER.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\MIBH3CSW_DATACENTER.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.49"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "MIBH3CSW_SERVICIOS.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\MIBH3CSW_SERVICIOS.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.50"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "MIBH3CSW_SERVICIOS_new.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\MIBH3CSW_SERVICIOS_new.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.51"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "MIBstack.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\MIBstack.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.52"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "MIBstack_0320.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\MIBstack_0320.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.53"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "MIBWALK_S7503_20100709.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\MIBWALK_S7503_20100709.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.54"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "new_MIBH3C_S3100.txt.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\new_MIBH3C_S3100.txt.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.55"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "new_MIBH3C_S5800.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\new_MIBH3C_S5800.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.56"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "new_MIBH3C_SUPERSTACK.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\new_MIBH3C_SUPERSTACK.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.57"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "new_MIBH3C_WX3008.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\new_MIBH3C_WX3008.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.58"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "new_MIBH3C_WX3008LSW.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\new_MIBH3C_WX3008LSW.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.59"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "new_S9508E-V.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\new_S9508E-V.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.60"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "RMS_MIB_N5K.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\RMS_MIB_N5K.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.61"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "S3100-26C-SI.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\S3100-26C-SI.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.62"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "S3100-26TP-SI_040710.txt.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\S3100-26TP-SI_040710.txt.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.63"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "S3100-52TP-SI_040710.txt.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\S3100-52TP-SI_040710.txt.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.64"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "S3600-52P-SI.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\S3600-52P-SI.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.65"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "S3928P-EI.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\S3928P-EI.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.66"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "S5500-52C-EI.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\S5500-52C-EI.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.67"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "S5500-52C-EI_new.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\S5500-52C-EI_new.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.68"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "S5600-50c.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\S5600-50c.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.69"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "S5600-50C_20100608.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\S5600-50C_20100608.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.70"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "S7502E-Update.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\S7502E-Update.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.71"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "S7502E_040710.txt.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\S7502E_040710.txt.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.72"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "S7503.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\S7503.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.73"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "S7506E-Update.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\S7506E-Update.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.74"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "S7506R.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\S7506R.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.75"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "S7510E-Update.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\S7510E-Update.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.76"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "S9508E-V.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\S9508E-V.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.77"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "sapwalk_s3600-28P-SI.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\sapwalk_s3600-28P-SI.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.78"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "sapwalk_s7503.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\sapwalk_s7503.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.79"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "sapwalk_s7503_For_Test.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\sapwalk_s7503_For_Test.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.128.80"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "swu-fws648G_ip_61_06.txt.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\H3C\swu-fws648G_ip_61_06.txt.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+</DeviceMap>

@@ -1,0 +1,348 @@
+<DeviceMap
+	Release = "11.0"
+	Description = ""
+	UserData = ""
+	SetupFile = ""
+	Interface = ""
+	Separator = ""
+	StartInterfaceNum = "0"
+	Username = "">
+	<Device
+		<General
+			Name = "192.168.16.118"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[00102759]Extreme BD-X8"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\7.2.3L&7.2.4F\[00102759]Extreme BD-X8.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.16.119"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[00104031] HP5500"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\7.2.3L&7.2.4F\[00104031] HP5500.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.16.120"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[00112755] JPEX6210"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\7.2.3L&7.2.4F\[00112755] JPEX6210.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.16.121"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[00112756] JPEX4300"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\7.2.3L&7.2.4F\[00112756] JPEX4300.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.16.122"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[00110558] Cisco 2960x"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\7.2.3L&7.2.4F\[00110558] Cisco 2960x.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.16.123"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[00112238]NB_cisco2960X_Directors-1"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\7.2.3L&7.2.4F\[00112238]NB_cisco2960X_Directors-1.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.16.124"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[00112238]NB_cisco2960X_Directors-2"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\7.2.3L&7.2.4F\[00112238]NB_cisco2960X_Directors-2.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.16.125"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[00112238]NB_cisco2960X_FIN"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\7.2.3L&7.2.4F\[00112238]NB_cisco2960X_FIN.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.16.126"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[00112238]NB_cisco2960X_Gate-House"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\7.2.3L&7.2.4F\[00112238]NB_cisco2960X_Gate-House.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.16.127"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[00112238]NB_cisco2960X_NEM-1"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\7.2.3L&7.2.4F\[00112238]NB_cisco2960X_NEM-1.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.16.128"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[00112238]NB_cisco2960X_NEM-2"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\7.2.3L&7.2.4F\[00112238]NB_cisco2960X_NEM-2.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.16.129"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[00114498]IBM 2498-F48"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\7.2.3L&7.2.4F\[00114498]IBM 2498-F48.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.16.130"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[00114498]IBM 2498-F96"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\7.2.3L&7.2.4F\[00114498]IBM 2498-F96.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+</DeviceMap>

@@ -1,0 +1,2558 @@
+<DeviceMap
+	Release = "11.0"
+	Description = ""
+	UserData = ""
+	SetupFile = ""
+	Interface = ""
+	Separator = ""
+	StartInterfaceNum = "0"
+	Username = "">
+	<Device
+		<General
+			Name = "192.168.129.1"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "F4R7_HPB_C1_SW1.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\F4R7_HPB_C1_SW1.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.2"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "F4R7_HPB_C1_SW2.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\F4R7_HPB_C1_SW2.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.3"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "F4R7_HPB_C2_SW1.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\F4R7_HPB_C2_SW1.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.4"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "F4R7_HPB_C2_SW2.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\F4R7_HPB_C2_SW2.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.5"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "F4R7_HPB_C2_SW3.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\F4R7_HPB_C2_SW3.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.6"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "F4R7_HPB_C2_SW4.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\F4R7_HPB_C2_SW4.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.7"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "F4R7_HPB_C3_SW1.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\F4R7_HPB_C3_SW1.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.8"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "F4R7_HPB_C3_SW2.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\F4R7_HPB_C3_SW2.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.9"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "F4R7_HPB_C3_SW3.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\F4R7_HPB_C3_SW3.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.10"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "F4R7_HPB_C3_SW4.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\F4R7_HPB_C3_SW4.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.11"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP 2510-48.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP 2510-48.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.12"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP 2510_24.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP 2510_24.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.13"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP 2520g_24_poe.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP 2520g_24_poe.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.14"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP 2610-24.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP 2610-24.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.15"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP 2610_24_12pwr.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP 2610_24_12pwr.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.16"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP 2910_24G.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP 2910_24G.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.17"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP 3500yl_24g.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP 3500yl_24g.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.18"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP 3500yl_48g.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP 3500yl_48g.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.19"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP 5412zl.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP 5412zl.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.20"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP 7503.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP 7503.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.21"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP C7000.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP C7000.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.22"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP GbE2c Blade.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP GbE2c Blade.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.23"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP J4813A_walk20121221.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP J4813A_walk20121221.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.24"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP J4813A_walk20130122.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP J4813A_walk20130122.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.25"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP J4900C.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP J4900C.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.26"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP J8697A Switch E5406zl.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP J8697A Switch E5406zl.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.27"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP J9298A.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP J9298A.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.28"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP J9625A E2620-24-PoEP.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP J9625A E2620-24-PoEP.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.29"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP ProCurve J4899B Switch 2650.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP ProCurve J4899B Switch 2650.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.30"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP ProCurve J9088A.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP ProCurve J9088A.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.31"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP ProCurve J9280A.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP ProCurve J9280A.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.32"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP Switch 2510B-24.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP Switch 2510B-24.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.33"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP-A5120-24G-EI-PLANE.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP-A5120-24G-EI-PLANE.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.34"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP-A5120-24G-EI-With-2p-10-GbE-XFP-Module.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP-A5120-24G-EI-With-2p-10-GbE-XFP-Module.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.35"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP-A5120-24G-EI-With-2p.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP-A5120-24G-EI-With-2p.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.36"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP-A5120-24G-EI.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP-A5120-24G-EI.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.37"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP-A5120-24G-PoE-EI-PLANE.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP-A5120-24G-PoE-EI-PLANE.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.38"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP-A5120-24G-PoE-EI-With-1p-10-GbE-XFP-Module.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP-A5120-24G-PoE-EI-With-1p-10-GbE-XFP-Module.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.39"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP-A5120-24G-PoE-EI-With-2p-10-GbE-CX4-Module.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP-A5120-24G-PoE-EI-With-2p-10-GbE-CX4-Module.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.40"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP-A5120-24G-PoE-EI-With-2p-10-GbE-XFP-Module.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP-A5120-24G-PoE-EI-With-2p-10-GbE-XFP-Module.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.41"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP-A5120-48G-EI-PLANEE.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP-A5120-48G-EI-PLANEE.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.42"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP-A5120-48G-EI-With-1p-10-GbE-XFP-Module.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP-A5120-48G-EI-With-1p-10-GbE-XFP-Module.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.43"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP-A5120-48G-EI-With-2p-10-GbE-CX4-Module.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP-A5120-48G-EI-With-2p-10-GbE-CX4-Module.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.44"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP-A5120-48G-EI-With-2p-10-GbE-XFP-Module.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP-A5120-48G-EI-With-2p-10-GbE-XFP-Module.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.45"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP-A5120-48G-PoE-EI-PLANE.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP-A5120-48G-PoE-EI-PLANE.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.46"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP-A5120-48G-PoE-EI-With-1p-10-GbE-XFP-Module.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP-A5120-48G-PoE-EI-With-1p-10-GbE-XFP-Module.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.47"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP-A5120-48G-PoE-EI-With-2p-10-GbE-CX4-Module.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP-A5120-48G-PoE-EI-With-2p-10-GbE-CX4-Module.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.48"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP-A5120-48G-PoE-EI-With-2p-10-GbE-XFP-Module.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP-A5120-48G-PoE-EI-With-2p-10-GbE-XFP-Module.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.49"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP-A5500-24G-EI-PLANE.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP-A5500-24G-EI-PLANE.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.50"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP-A5500-24G-EI-With-1p-10-GbE-XFP-Module.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP-A5500-24G-EI-With-1p-10-GbE-XFP-Module.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.51"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP-A5500-24G-EI-With-2p-10-GbE-CX4-Module.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP-A5500-24G-EI-With-2p-10-GbE-CX4-Module.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.52"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP-A5500-24G-EI-With-2p-10-GbE-XFP-Module.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP-A5500-24G-EI-With-2p-10-GbE-XFP-Module.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.53"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP1700_05may2009.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP1700_05may2009.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.54"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP1800 (2).var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP1800 (2).var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.55"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP1800.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP1800.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.56"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP1800_0407.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP1800_0407.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.57"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP1800_05may2009.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP1800_05may2009.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.58"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP1900 MIBWalk.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP1900 MIBWalk.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.59"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP2510_4.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP2510_4.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.60"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP2512.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP2512.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.61"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP2524.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP2524.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.62"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP2610-24pwr.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP2610-24pwr.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.63"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP2610_24.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP2610_24.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.64"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP2626-PWR.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP2626-PWR.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.65"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP2910a.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP2910a.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.66"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP2910a.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP2910a.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.67"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP2910b.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP2910b.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.68"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP2910b.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP2910b.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.69"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP2910c.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP2910c.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.70"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP2910c.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP2910c.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.71"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "hp4000.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\hp4000.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.72"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "hp4000_modifyByHP.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\hp4000_modifyByHP.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.73"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP4108GL.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP4108GL.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.74"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "hp4948other.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\hp4948other.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.75"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP5412.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP5412.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.76"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "hp5412z.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\hp5412z.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.77"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "hp5412z.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\hp5412z.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.78"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP5412ZL.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP5412ZL.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.79"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP5412_040418.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP5412_040418.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.80"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP7503.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP7503.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.81"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HPV191024G.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HPV191024G.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.82"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP_5120_48G_EI-With-2p-10-GbE-CX4-Module and 2p-10-GbE-XFP-Module.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP_5120_48G_EI-With-2p-10-GbE-CX4-Module and 2p-10-GbE-XFP-Module.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.83"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP_5120_48G_EI.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP_5120_48G_EI.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.84"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP_5120_48G_EI_IRF-With-2p-10-GbE-CX4-Module and 2p-10-GbE-XFP-Module.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP_5120_48G_EI_IRF-With-2p-10-GbE-CX4-Module and 2p-10-GbE-XFP-Module.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.85"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP_5120_48G_EI_IRF.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP_5120_48G_EI_IRF.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.86"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP_5120_48G_PoE_EI-With-2p-10-GbE-CX4-Module and 2p-10-GbE-XFP-Module.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP_5120_48G_PoE_EI-With-2p-10-GbE-CX4-Module and 2p-10-GbE-XFP-Module.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.87"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP_5120_48G_PoE_EI.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP_5120_48G_PoE_EI.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.88"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP_A5500_24G_EI-With-2p-10-GbE-CX4-Module and 2p-10-GbE-XFP-Module.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP_A5500_24G_EI-With-2p-10-GbE-CX4-Module and 2p-10-GbE-XFP-Module.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.89"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP_A5500_24G_EI.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP_A5500_24G_EI.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.90"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP_Austin_Multiple_Switch_Sync_Issue_3500.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP_Austin_Multiple_Switch_Sync_Issue_3500.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.91"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP_S7506E (2).var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP_S7506E (2).var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.92"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP_S7506E.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP_S7506E.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.93"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP_SAN.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP_SAN.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.94"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "HP_vc.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\HP_vc.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.95"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "ProCurve2610-24.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\ProCurve2610-24.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.96"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "Procurve2900J9050A.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\Procurve2900J9050A.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.97"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "sd2.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\sd2.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.129.98"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "VC.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\HP\VC.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+</DeviceMap>

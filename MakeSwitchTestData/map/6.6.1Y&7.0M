@@ -1,0 +1,790 @@
+<DeviceMap
+	Release = "11.0"
+	Description = ""
+	UserData = ""
+	SetupFile = ""
+	Interface = ""
+	Separator = ""
+	StartInterfaceNum = "0"
+	Username = "">
+	<Device
+		<General
+			Name = "192.168.13.55"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[130612-000004] WS-C3750V2-48PS-S (sapwalk)"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\[130612-000004] WS-C3750V2-48PS-S (sapwalk).txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.56"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[130612-000004] WS-C3750V2-48PS-S (sapwalk2)"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\[130612-000004] WS-C3750V2-48PS-S (sapwalk2).var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.57"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[130624-000004] Enterasys C2H 124-48"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\[130624-000004] Enterasys C2H 124-48.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.58"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[120924-000008] Cisco 4506"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\[120924-000008] Cisco 4506.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.59"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[111004-000007] GE-DS-242-PoE"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\[111004-000007] GE-DS-242-PoE.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.60"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "Cisco IE-3010-16S-8PC"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\Cisco IE-3010-16S-8PC.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.61"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[130709-000002] Nexus 7K"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\[130709-000002] Nexus 7K.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.62"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[130717-000003] Cisco6509-PCISD01"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\[130717-000003] Cisco6509-PCISD01-mibwalk.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.63"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[130723-000004] MDS9148"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\[130723-000004] MDS9148.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.64"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[130729-000002] Juniper EX3300-48T"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\[130729-000002] Juniper EX3300-48T.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.65"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[130726-000005] Cisco 2960"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\[130726-000005] Cisco 2960.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.66"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[130726-000005] Nexus 5596 SVR1"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\[130726-000005] Nexus 5596 SVR1.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.67"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[130726-000005] Nexus 5596 SVR2"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\[130726-000005] Nexus 5596 SVR2.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.68"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[130804-000000] S5120-11-135"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\[130804-000000] S5120-11-135.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.69"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[130804-000000] S5120-11-136"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\[130804-000000] S5120-11-136.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.70"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[130804-000000] H3C-S5120-28C-EI-10-8-11-12.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\switch 01\H3C-S5120-28C-EI-10-8-11-12.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.71"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "IL13750WAN1.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\switch 02\IL13750WAN1.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.72"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "2013-0404 MIB Walk HP A5120.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\switch 03\2013-0404 MIB Walk HP A5120.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.73"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[130808-000007] EX 3200 48T(Junos 11.4)"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\[130808-000007] EX 3200 48T(Junos 11.4).var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.74"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[130808-000007] EX3200 48T(Junos 10.4)"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\[130808-000007] EX3200 48T(Junos 10.4).var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.75"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[130808-000007] EX3200 24T(Junos 10.4)"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\[130808-000007] EX3200 24T(Junos 10.4).var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.76"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[130808-000007] EX3200 24T(Junos 11.4)"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\[130808-000007] EX3200 24T(Junos 11.4).var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.77"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[130731-000008]SAPWALK CiscoNexus6001 snmp v2c.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\switch 04\SAPWALK CiscoNexus6001 snmp v2c.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.78"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[130808-000007] ex3200_48P"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\[130808-000007] ex3200_48P.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.79"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "for issue"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\switch 04\[130726-000005]Cisco2960.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.90"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "IL12960DCM1.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\ggenhum_issue\IL12960DCM1.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.91"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "IL13750WAN1.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\ggenhum_issue\IL13750WAN1.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.92"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "IL15596SRV1.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\ggenhum_issue\IL15596SRV1.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.93"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "IL170091.txt.var"
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\ggenhum_issue\IL170091.txt.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+	<Device
+		<General
+			Name = "192.168.13.86"
+			MultiHome = "1"
+			DHCP = "0"
+			SubnetMask = "255.255.255.0"
+			MacAddress = ""
+			Interface = ""
+			UserData = ""
+			TopologyData = ""
+			DisplayTag = "[190731-000008] CiscoNexus6001v2."
+			ModelingFile = ""
+		/>
+		<Snmp
+			ReadCommunity = "public"
+			WriteCommunity = "private"
+			MibFile = "mib2.cmf"
+			AgentFile = "C:\Workspace\SNMP\Walkfiles\6.6.1Y&7.0M\switch 04\CiscoNexus6001v2.var"
+			TrapMgr = ""
+			ResponseDelay = "0"
+			SnmpStr = "V1V2V3"
+			MtuSize = "1500"
+			SnmpPort = "161"
+			SecurityLevel = "NoAuthNoPriv"
+		/>
+	/>
+</DeviceMap>

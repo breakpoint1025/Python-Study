@@ -4,6 +4,7 @@ import time
 import os
 import pyodbc
 import random
+import shutil
 
 working_dr = r"E:\SNMPUpdate\SimpleSoftConfig\map"
 #working_dr = r"C:\GitHub\TestData\SimpleSoftConfig\map"
@@ -32,6 +33,10 @@ for filename in os.listdir():
 
 print("We have [%d] simulators" %(len(devinfo_list)))
 fo.close()
+
+
+#Remove all the harnessfiles at beginning
+shutil.rmtree(r"E:\SM7\Git\SNMPService 7.2\SNMPService\SourceCode\SNMPServer.Service\bin\Debug\TestData")
         
 #Prepare deviceinfo in SQL Server for sync
 cnxn = pyodbc.connect('DRIVER={SQL Server};SERVER=localhost;DATABASE=SNMPSiteData;UID=sm7user;PWD=1')
@@ -42,13 +47,14 @@ cursor.execute("truncate table [dbo].[SNMPSwitchProfiles]")
 cursor.execute("truncate table [dbo].[SNMPCommProfiles]")
 cursor.execute("truncate table [dbo].[SNMPSwitches]")
 cursor.execute("truncate table [dbo].[SNMPTasks]")
+cursor.execute("truncate table [dbo].[SNMPTaskChanges]")
 cnxn.commit()
 
 #insert SNMPCommProfiles SNMPSwitchProfiles SNMPSwitches and SNMPTasks
 profId = random.randint(0, 10000000)
 
 #hard code the SNMPCommProfiles and SNMPSwitchProfiles first-- enhance laster
-sqlstr = ("insert into SNMPCommProfiles(id, target, security) values (%d , '<Target><Timeout>30</Timeout><Retries>3</Retries></Target>', '<SecInfo><V2><ReadCommunityString>307300331071011540F900DB00FC0C9C207F093F60760277</ReadCommunityString><WriteCommunityString>307300331071001340F909D910FC049E207F013F7076047640FA00DF</WriteCommunityString></V2></SecInfo>')" %(profId))
+sqlstr = ("insert into SNMPCommProfiles(id, target, security) values (%d , '<Target><Timeout>3</Timeout><Retries>3</Retries></Target>', '<SecInfo><V2><ReadCommunityString>307300331071011540F900DB00FC0C9C207F093F60760277</ReadCommunityString><WriteCommunityString>307300331071001340F909D910FC049E207F013F7076047640FA00DF</WriteCommunityString></V2></SecInfo>')" %(profId))
 cursor.execute(sqlstr)
 
 sqlstr = ("insert into SNMPSwitchProfiles(id, SyncProfileData) values (%d , '<Options><VirtualNetworks>2</VirtualNetworks><PortDesc /></Options>')" %(profId))
@@ -66,8 +72,11 @@ for dev in devinfo_list:
 
     #insert task
     taskId = random.randint(0, 10000000)
-    sqlstr = ("insert into SNMPTasks(ID, ActionType, ObjectID, ScheduledDateTime, Priority, InProgress, Options) values(%d, 'SyncSwitch', %d, '2017-03-03 16:37:02.753', 1, 0, '<Options><FullConfigSync /></Options>')" %(taskId,switchId))
+    sqlstr = ("insert into SNMPTasks(ID, ActionType, ObjectID, ScheduledDateTime, Priority, InProgress, Options) values(%d, 'SyncSwitch', %d, '2017-01-01 0:0:0.0', 1, 0, '<Options><FullConfigSync /></Options>')" %(taskId,switchId))
     cursor.execute(sqlstr)
+
+
+
 
 
     

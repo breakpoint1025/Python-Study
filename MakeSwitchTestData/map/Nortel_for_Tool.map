@@ -1,0 +1,270 @@
+<DeviceMap
+	Release = "11.0"
+	Description = ""
+	UserData = ""
+	SetupFile = ""
+	Interface = ""
+	Separator = ""
+	StartInterfaceNum = "0"
+	Username = "">
+<Device
+	<General
+		Name = "192.168.132.1"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Nortel 4526T-PWR.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Nortel\Nortel 4526T-PWR.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.132.2"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Nortel 8300A.txt.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Nortel\Nortel 8300A.txt.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.132.3"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Nortel5500Sapwalk.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Nortel\Nortel5500Sapwalk.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.132.4"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Nortel5510 -8th floor Floor Switch room-not syncronized.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Nortel\Nortel5510 -8th floor Floor Switch room-not syncronized.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.132.5"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "nortel5510.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Nortel\nortel5510.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.132.6"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "nortel_5510.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Nortel\nortel_5510.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.132.7"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Nortel_8610.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Nortel\Nortel_8610.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.132.8"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Nortel_ERS_8610.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Nortel\Nortel_ERS_8610.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.132.9"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "pasodda3_1.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Nortel\pasodda3_1.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.132.10"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "sap8300.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Nortel\sap8300.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+</DeviceMap>

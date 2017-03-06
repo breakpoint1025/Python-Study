@@ -1,0 +1,1128 @@
+<DeviceMap
+	Release = "11.0"
+	Description = ""
+	UserData = ""
+	SetupFile = ""
+	Interface = ""
+	Separator = ""
+	StartInterfaceNum = "0"
+	Username = "">
+<Device
+	<General
+		Name = "192.168.130.1"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "ex3200_48P.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\ex3200_48P.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.2"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "ex4200172.20.0.22.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\ex4200172.20.0.22.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.3"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "ex4200172.20.1.8.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\ex4200172.20.1.8.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.4"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "ex8208_178.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\ex8208_178.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.5"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "JunipeEX2200PoE.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\JunipeEX2200PoE.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.6"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper  EX2200-48T-4G_241.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper  EX2200-48T-4G_241.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.7"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper EX2200-48T-4G.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper EX2200-48T-4G.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.8"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper EX2200-48T-4G_237.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper EX2200-48T-4G_237.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.9"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper EX2200-48T-4G_238.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper EX2200-48T-4G_238.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.10"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper EX2200-48T-4G_239.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper EX2200-48T-4G_239.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.11"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper EX2200-48T-4G_240.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper EX2200-48T-4G_240.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.12"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper EX4200-48P.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper EX4200-48P.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.13"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper EX4200-48T.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper EX4200-48T.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.14"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper EX4200.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper EX4200.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.15"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper EX4200test10.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper EX4200test10.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.16"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper EX4200test11.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper EX4200test11.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.17"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper EX4200test2.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper EX4200test2.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.18"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper EX4200test3.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper EX4200test3.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.19"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper EX4200test4.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper EX4200test4.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.20"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper EX4200test5.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper EX4200test5.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.21"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper EX4200test6.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper EX4200test6.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.22"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper EX4200test7.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper EX4200test7.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.23"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper EX4200test8.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper EX4200test8.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.24"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper EX4200test9.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper EX4200test9.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.25"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "juniper4200-48T.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\juniper4200-48T.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.26"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "JuniperEX2200.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\JuniperEX2200.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.27"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper_24SFP.txt.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper_24SFP.txt.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.28"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper_24SFP_DD.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper_24SFP_DD.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.29"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper_48port.txt.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper_48port.txt.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.30"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Juniper_48port_DD.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Juniper_48port_DD.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.31"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "juniper_EX4200.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\juniper_EX4200.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.32"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "LDTJNSW9901.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\LDTJNSW9901.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.33"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Sapwalk2_EX4200-24.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Sapwalk2_EX4200-24.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.34"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Sapwalk2_LDTJNSW99F7.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Sapwalk2_LDTJNSW99F7.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.35"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "sapwalk_BEAJNSW90B1.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\sapwalk_BEAJNSW90B1.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.36"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "sapwalk_BEAJNSW90B1_Juniper0301.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\sapwalk_BEAJNSW90B1_Juniper0301.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.37"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "SapWalk_BEAJNSW90C2.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\SapWalk_BEAJNSW90C2.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.38"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "sapwalk_BEAJNSW99B1.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\sapwalk_BEAJNSW99B1.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.39"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "sapwalk_BEAJNSW99B1_Juniper0301.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\sapwalk_BEAJNSW99B1_Juniper0301.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.40"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Sapwalk_LDTJNSW90F7_Juniper0301.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Sapwalk_LDTJNSW90F7_Juniper0301.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.41"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Sapwalk_LDTJNSW99F7_Juniper0301.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\Sapwalk_LDTJNSW99F7_Juniper0301.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.42"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "SapWEX4200-24F.txt.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\SapWEX4200-24F.txt.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.130.43"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "sapwEX4200-4.txt.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Juniper\sapwEX4200-4.txt.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+</DeviceMap>

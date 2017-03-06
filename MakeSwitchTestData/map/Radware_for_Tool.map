@@ -1,0 +1,114 @@
+<DeviceMap
+	Release = "11.0"
+	Description = ""
+	UserData = ""
+	SetupFile = ""
+	Interface = ""
+	Separator = ""
+	StartInterfaceNum = "0"
+	Username = "">
+<Device
+	<General
+		Name = "192.168.120.1"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Radware SRW2024.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Radware\Radware SRW2024.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.120.2"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Radware SRW2024_1.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Radware\Radware SRW2024_1.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.120.3"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "Radware.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Radware\Radware.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+<Device
+	<General
+		Name = "192.168.120.4"
+		MultiHome = "1"
+		DHCP = "0"
+		SubnetMask = "255.255.255.0"
+		MacAddress = ""
+		Interface = ""
+		UserData = ""
+		TopologyData = ""
+		DisplayTag = "radware_new.var"
+		ModelingFile = ""
+	/>
+	<Snmp
+		ReadCommunity = "public"
+		WriteCommunity = "private"
+		MibFile = "mib2.cmf"
+		AgentFile = "C:\Workspace\SNMP\Walkfiles\ForSNMPUpdateToolTest\Radware\radware_new.var"
+		TrapMgr = ""
+		ResponseDelay = "0"
+		SnmpStr = "V1V2V3"
+		MtuSize = "1500"
+		SnmpPort = "161"
+		SecurityLevel = "NoAuthNoPriv"
+	/>
+/>
+</DeviceMap>
