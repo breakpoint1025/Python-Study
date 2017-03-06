@@ -6,14 +6,17 @@ import pyodbc
 import random
 import shutil
 
-working_dr = r"E:\SNMPUpdate\SimpleSoftConfig\map"
-#working_dr = r"C:\GitHub\TestData\SimpleSoftConfig\map"
+#initialize some config
+TestDataDir = r"C:\Program Files\CommScope\imVision System Manager\Services\SNMPServices\TestData"
+DBConnStr = r"DRIVER={SQL Server};SERVER=WIN-CM4RDTSBFH9\IMVISION;DATABASE=SNMPSiteData;UID=sa;PWD=SM7sm7!@#$%12345"
+
 #开始计时
 start = time.clock()
 
 saved_path = os.getcwd()
-os.chdir(working_dr)
+os.chdir(saved_path + "\\map")
 
+#Get and print switch list
 devinfo_list = []
 fo = open("..\devices_list.txt", "w+")
 for filename in os.listdir():
@@ -34,12 +37,12 @@ for filename in os.listdir():
 print("We have [%d] simulators" %(len(devinfo_list)))
 fo.close()
 
-
-#Remove all the harnessfiles at beginning
-shutil.rmtree(r"E:\SM7\Git\SNMPService 7.2\SNMPService\SourceCode\SNMPServer.Service\bin\Debug\TestData")
+#Remove all the existing harnessfiles at beginning
+if os.path.exists(TestDataDir):
+    shutil.rmtree(TestDataDir)
         
 #Prepare deviceinfo in SQL Server for sync
-cnxn = pyodbc.connect('DRIVER={SQL Server};SERVER=localhost;DATABASE=SNMPSiteData;UID=sm7user;PWD=1')
+cnxn = pyodbc.connect(DBConnStr)
 cursor = cnxn.cursor()
 
 #Truncate relevant table first
@@ -51,7 +54,7 @@ cursor.execute("truncate table [dbo].[SNMPTaskChanges]")
 cnxn.commit()
 
 #insert SNMPCommProfiles SNMPSwitchProfiles SNMPSwitches and SNMPTasks
-profId = random.randint(0, 10000000)
+profId = random.randint(0, 100000000)
 
 #hard code the SNMPCommProfiles and SNMPSwitchProfiles first-- enhance laster
 sqlstr = ("insert into SNMPCommProfiles(id, target, security) values (%d , '<Target><Timeout>3</Timeout><Retries>3</Retries></Target>', '<SecInfo><V2><ReadCommunityString>307300331071011540F900DB00FC0C9C207F093F60760277</ReadCommunityString><WriteCommunityString>307300331071001340F909D910FC049E207F013F7076047640FA00DF</WriteCommunityString></V2></SecInfo>')" %(profId))
@@ -71,12 +74,12 @@ for dev in devinfo_list:
     switchId = cursor.fetchone()[0]
 
     #insert task
-    taskId = random.randint(0, 10000000)
+    taskId = random.randint(0, 100000000)
     sqlstr = ("insert into SNMPTasks(ID, ActionType, ObjectID, ScheduledDateTime, Priority, InProgress, Options) values(%d, 'SyncSwitch', %d, '2017-01-01 0:0:0.0', 1, 0, '<Options><FullConfigSync /></Options>')" %(taskId,switchId))
     cursor.execute(sqlstr)
 
 cnxn.commit()
-
+cnxn.close()
 
 os.chdir(saved_path)
 #结束计时
