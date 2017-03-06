@@ -75,22 +75,7 @@ for dev in devinfo_list:
     sqlstr = ("insert into SNMPTasks(ID, ActionType, ObjectID, ScheduledDateTime, Priority, InProgress, Options) values(%d, 'SyncSwitch', %d, '2017-01-01 0:0:0.0', 1, 0, '<Options><FullConfigSync /></Options>')" %(taskId,switchId))
     cursor.execute(sqlstr)
 
-
-
-
-
-    
-
 cnxn.commit()
-
-
-
-
-
-
-
-
-
 
 
 os.chdir(saved_path)
