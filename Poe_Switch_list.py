@@ -56,7 +56,7 @@ if __name__ == '__main__':
     cnxn = pyodbc.connect(connStr)
     cursor = cnxn.cursor()
     fo = codecs.open(".\switch_PoE_list.csv", "w+", "utf-8")
-    fo.write("OID,Switch Model, ManufacturerID, AlgorithmNumber" + "\n")
+    fo.write("WalkfilePath, OID,Switch Model, ManufacturerID, AlgorithmNumber" + "\n")
     deal_walkfiles(dir, poe_switches_dir, fo, cursor)
     #deal_walkfiles(r"E:\SM7\Git\SNMPWalkfiles\GitD4S\WalkfileByCode\7.1.2M&7.2.1C", poe_switches_dir, fo, cursor)
     fo.close()
