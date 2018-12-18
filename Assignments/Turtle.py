@@ -2,11 +2,9 @@ import turtle
 
 def draw_square(brad):
 	brad.color("pink")
-	i = 0
-	while i < 4 :	
+	for i in range(4) :	
 		brad.forward(100)
 		brad.right(90)
-		i = i+1
 
 def draw_circle(brad):
 	brad.color("red")
@@ -21,40 +19,23 @@ def draw_triangle(brad):
 		i=i+1
 
 
-def draw_square_sunflower(brad):	
-	
+def draw_square_sunflower(brad, turn_angle):
 	brad.speed(50)
-	
-	angle = 0
-	turn_angle = 1
-
-	while angle < 360:
+	for i in range(0, 360, turn_angle):
 		draw_square(brad)
-		angle=angle+turn_angle
 		brad.right(turn_angle)
 
-def draw_circle_sunflower(brad):	
-	
-	brad.speed(50)
-	
-	angle = 0
-	turn_angle = 1
 
-	while angle < 360:
+def draw_circle_sunflower(brad, turn_angle):
+	brad.speed(50)	
+	for i in range(0, 360, turn_angle):
 		draw_circle(brad)
-		angle=angle+turn_angle
 		brad.right(turn_angle)
 
-def draw_triangle_sunflower(brad):	
-	
-	brad.speed(50)
-	
-	angle = 0
-	turn_angle = 1
-
-	while angle < 360:
+def draw_triangle_sunflower(brad, turn_angle):
+	brad.speed(50)	
+	for i in range(0, 360, turn_angle):
 		draw_triangle(brad)
-		angle=angle+turn_angle
 		brad.right(turn_angle)
 
 if __name__ == '__main__':
@@ -71,13 +52,13 @@ if __name__ == '__main__':
 	draw_triangle(brad)
 	
 	brad.reset()
-	draw_square_sunflower(brad)
+	draw_square_sunflower(brad, 1)
 
 	brad.reset()
-	draw_circle_sunflower(brad)
+	draw_circle_sunflower(brad, 1)
 
 	brad.reset()
-	draw_triangle_sunflower(brad)	
+	draw_triangle_sunflower(brad, 1)	
 
 	screen.exitonclick()
 		
