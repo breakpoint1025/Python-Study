@@ -1,5 +1,4 @@
 import os
-import fileinput
 import sys
 
 def processdir(dir):
