@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+
+    <title>刘谙忆</title>
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+    <style>
+      
+		h1 
+		{
+		  font-family: Galada, Monospace;
+		}
+
+		h3 
+		{
+		  font-family: Rakkas, Monospace;
+		}
+
+		h4 
+		{
+		  font-family: Fjalla One, Monospace;
+		}
+
+		body {
+		  margin-top: 10px;
+		  margin-left: 10px;
+		  margin-right: 10px;
+		  background-color:lightyellow;
+		  font-family:Monospace;
+		}
+
+		.img_background
+		{
+		  background-color:black
+		}
+
+
+
+
+
+
+    </style>
+
+    <script>
+		window.console = window.console || function(t) {};
+	</script>
+
+    
+    
+  </head>
+
+  <body translate="no" >
+
+    <link href="https://fonts.googleapis.com/css?family=Galada|Pacifico|Rakkas|Fjalla One" rel="stylesheet" type="text/css">
+	
+	<div class = "container-fluid well">
+	  <div class = "row">
+		<div class = "col-xs-12" id = "content">
+		  <h1 class = "text-center">刘谙忆</h1>
+		  <h3 class = "text-center">刘谙忆 - Nemo</h4>
+		  <div class = "container img_background">
+				 <img class = "img-responsive" src="{{ url_for('static', filename='116.jpg') }}">
+				 <h4 class = "text-primary text-center">刘谙忆 (October 17, 2018 – ) was my daughter.</h4>
+		  </div>
+		  <div class = "container">
+		  <h4>Life and career:</h4>
+		  <ul>
+			<li><b>2018.10.19:</b> Birthday </li>
+			<li><b>2019.6.15:</b> <a href="{{ url_for('static', filename='615.jpg') }}" target="_blank">爬行比赛冠军</a> </li>
+		  </ul>
+			<blockquote>
+					  <p>"Thriller is the best-selling album of all time, with estimated sales of 65 million copies worldwide. Jackson's other albums, including Off the Wall (1979), Bad (1987), Dangerous (1991), and HIStory (1995), also rank among the world's best-selling albums. He is recognized as the Most Successful Entertainer of All Time by Guinness World Records.Jackson is one of the few artists to have been inducted into the Rock and Roll Hall of Fame twice, and was also inducted into the Songwriters Hall of Fame and the Dance Hall of Fame as the only dancer from pop and rock music."</p>
+					  <footer><cite>by wiki</cite></footer>
+			 </blockquote>
+			<h4>If you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Michael_Jackson" target="_blank">Wikipedia entry</a>.</h4>
+		  </div>  
+		</div>
+	  </div>
+	</div>
+    
+	<footer class = "text-center">Written and coded by <a href="https://www.freecodecamp.com/breakpoint1025" target="_blank">Colin Liu</a></footer>
+    
+	<script>
+	  if (document.location.search.match(/type=embed/gi)) {
+		window.parent.postMessage("resize", "*");
+	  }
+	</script>
+
+  </body>
+</html>
+ 
