@@ -45,7 +45,7 @@ if __name__ == '__main__':
 
 	brad = turtle.Turtle()
 	brad.shape("arrow")
-	brad.speed(10)
+	brad.speed(100)
 	
 	draw_square(brad)	
 	draw_circle(brad)

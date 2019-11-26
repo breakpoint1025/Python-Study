@@ -10,8 +10,8 @@ start = time.clock()
 
 #设置代理
 enable_proxy = True
-proxy_handler = urllib.request.ProxyHandler({"http" : 'http://coliu:Amazon!3@sdcwsa01.commscope.com:80',
-                                             "https" : 'http://coliu:Amazon!3@sdcwsa01.commscope.com:80'})
+proxy_handler = urllib.request.ProxyHandler({"http" : 'http://coliu:Amazon!15@sdcwsa01.commscope.com:80',
+                                             "https" : 'http://coliu:Amazon!15@sdcwsa01.commscope.com:80'})
 null_proxy_handler = urllib.request.ProxyHandler({})
 
 #设置登录信息
